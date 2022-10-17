@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
+    <title>Challenge</title>
   </head>
   <body>
     <nav class="menu">
@@ -15,9 +15,10 @@
     </nav>
     <header>
       <h1>Challenge Dia 1</h1>
+      <img src="img/devplace.jpg" alt="" />
     </header>
-    <img src="img/devplace.jpg" alt="" />
-    <div id="sobrenosotros">
+
+    <section id="sobrenosotros">
       <h2>Sobre Nosotros</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
@@ -25,9 +26,9 @@
         dolorem impedit eveniet beatae iure facere sapiente! Provident,
         voluptate sint? Libero, quibusdam?
       </p>
-    </div>
+    </section>
 
-    <div id="productos">
+    <section id="productos">
       <h2>Cursos Front End</h2>
       <img src="img/lenguajes.png" alt="" />
       <p>
@@ -37,8 +38,9 @@
         en los avances de las tecnologías de última generación y en lenguajes
         orientados a realización de sitios web dinámicos.
       </p>
-    </div>
-    <div id="paraempresas">
+    </section>
+
+    <section id="paraempresas">
       <h2>Para empresas</h2>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
@@ -46,11 +48,14 @@
         perferendis adipisci nostrum! Exercitationem reiciendis, amet architecto
         doloremque temporibus accusantium!
       </p>
-    </div>
+    </section>
+
     <hr />
+
     <div>
       <h2>Contanos de vos</h2>
     </div>
+
     <div class="form">
       <form action="" method="post">
         <div class="form-nombre">
@@ -59,29 +64,35 @@
           <label for="apellido">Apellido</label>
           <input type="text" name="apellido" required />
         </div>
+
         <div class="form-date">
           <label for="Nacimiento">Nacimiento</label>
           <input type="date" />
         </div>
+
         <div class="form-mail">
           <label for="mail">Mail</label>
           <input type="email" id="mail" required />
         </div>
+
         <div class="form-numero">
           <label for="numero">Telefono</label>
           <input type="number" id="telefono" required />
         </div>
+
         <div>
-          <label for="color">Color Favorito</label>
+          <label for="form-color">Color Favorito</label>
           <input type="color" name="color" id="" />
         </div>
 
         <div>
-          <label for="Descripcion">Acerca de vos</label>
+          <label for="form-descripcion">Acerca de vos</label>
         </div>
+
         <div>
           <textarea name="textarea" rows="10" cols="50"></textarea>
         </div>
+
         <div>
           <input type="submit" id="enviar" />
         </div>
