@@ -28,20 +28,24 @@ header nav a {
 
 .separador {
   margin-top: 30px;
-  padding-left: ;
   background-color: rgb(219, 219, 219);
   height: 1px;
   width: 100%;
 }
 
-.parte2 .title{
-    text-align: center;
-    font-size: 20px;
+.parte2 .title {
+  text-align: center;
+  font-size: 20px;
 }
 
-.parte2 .carta{
-    display: flex;
-    justify-content: center;
+.parte2 .carta {
+  display: flex;
+  justify-content: center;
+}
+
+.parte3 .title{
+    text-align: center;
+    font-size: 20px;
 }
 
 .card {
@@ -58,46 +62,50 @@ header nav a {
   padding: 2px 16px;
 }
 
-.formulario {
-    margin-top: 30px;
+.parte4 {
+    margin-top: 20px;
 }
 
-.formulario .form-nombre {
-    background-color: aqua;
+.parte4 {
+  margin-top: 30px;
 }
 
-.formulario .form-date {
-    background-color: aqua;
+.form-nombre {
+  background-color: aqua;
 }
 
-.formulario .form-mail {
-    background-color: aqua;
+.parte4 .form-date {
+  background-color: aqua;
 }
 
-.formulario .form-numero {
-    background-color: aqua;
+.parte4 .form-mail {
+  background-color: aqua;
 }
 
-.formulario .form-color {
-    background-color: aqua;
-}
-.formulario .form-file {
-    background-color: aqua;
-}
-.formulario .form-descripcion {
-    text-align: center;
-}
-.formulario .form-textarea {
-    display: flex;
-    justify-content: center;
+.parte4 .form-numero {
+  background-color: aqua;
 }
 
-.formulario .form-radio{
-    margin-top: 15px;
-    text-align: center;
+.parte4 .form-color {
+  background-color: aqua;
+}
+.parte4 .form-file {
+  background-color: aqua;
+}
+.parte4 .form-descripcion {
+  text-align: center;
+}
+.parte4 .form-textarea {
+  display: flex;
+  justify-content: center;
 }
 
-.formulario .form-email {
-    text-align: center;
-    background-color: aqua;
+.parte4 .form-radio {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.parte4 .form-email {
+  text-align: center;
+  background-color: aqua;
 }
