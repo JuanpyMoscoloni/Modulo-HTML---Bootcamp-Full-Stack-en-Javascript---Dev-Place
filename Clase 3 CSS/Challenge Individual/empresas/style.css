@@ -1,0 +1,53 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+  /*Style Declarations For This Width Range */}
+
+  
+ 
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #020c13;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-container #uno {
+    background-color: white;
+  }
+  .grid-container #dos {
+    background-color: white;
+  }
+  .grid-container #tres {
+    background-color: white;
+  }
+  .grid-container #cuatro {
+    background-color: white;
+  }
+  .grid-container #cinco {
+    background-color: white;
+  }
+  .grid-container #seis {
+    background-color: white;
+  }
+  .grid-container #siete {
+    background-color: white;
+  }
+  .grid-container #ocho {
+    background-color: white;
+  }
+  .grid-container #nueve {
+    background-color: white;
+  }
